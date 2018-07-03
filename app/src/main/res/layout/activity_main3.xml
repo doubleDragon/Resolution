@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wsl.example.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/img0"
+            android:layout_width="112dp"
+            android:layout_height="196dp"
+            android:contentDescription="@null"
+            android:src="@drawable/img_palm_reading" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="218dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/img0"
+            android:layout_toRightOf="@id/img0"
+            android:contentDescription="@null"
+            android:background="@drawable/ic_test"
+            android:src="@drawable/img_quiz" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="104dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@id/img1"
+            android:layout_alignStart="@id/img1"
+            android:layout_below="@id/img1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_common_corner_red"
+            android:contentDescription="@null"
+            android:src="@drawable/img_love_tips" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="104dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@id/img2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/img2"
+            android:layout_toRightOf="@id/img2"
+            android:contentDescription="@null"
+            android:background="@drawable/ic_common_corner_red"
+            android:src="@drawable/img_meme" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/view_display0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/test_text"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f00"
+        />
+
+    <TextView
+        android:id="@+id/view_display1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/test_text"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f00"
+        />
+
+</LinearLayout>

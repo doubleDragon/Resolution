@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="x1">1dp</dimen>
+    <dimen name="x120">120dp</dimen>
+    <dimen name="x360">360dp</dimen>
+
+</resources>

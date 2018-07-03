@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="test_text2">values-xxhdpi</string>
+    <dimen name="test_dimen">200dp</dimen>
+
+</resources>
