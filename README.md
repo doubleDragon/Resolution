@@ -1,0 +1,2 @@
+# Resolution
+android adapter resolution 
