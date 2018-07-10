@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, TestActivity.class));
     }
 
+    public void intentToBus(View view) {
+        startActivity(new Intent(this, BusActivity.class));
+    }
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {

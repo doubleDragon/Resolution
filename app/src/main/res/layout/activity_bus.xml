@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_page"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s10"
+        android:layout_marginRight="@dimen/s10"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/s165"
+            android:layout_height="@dimen/s100"
+            android:contentDescription="@null"
+            android:src="@drawable/img_palm_reading_new" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/s10"
+            android:layout_height="@dimen/s100" />
+
+
+        <ImageView
+            android:layout_width="@dimen/s165"
+            android:layout_height="@dimen/s100"
+            android:contentDescription="@null"
+            android:src="@drawable/img_quiz_new" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s10"
+        android:layout_marginRight="@dimen/s10"
+        android:layout_marginTop="@dimen/s10"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/s78"
+            android:layout_height="@dimen/s80"
+            android:contentDescription="@null"
+            android:src="@drawable/img_love_tips_new" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/s80" />
+
+        <ImageView
+            android:layout_width="@dimen/s78"
+            android:layout_height="@dimen/s80"
+            android:contentDescription="@null"
+            android:src="@drawable/img_love_tips_new" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/s80" />
+
+
+        <ImageView
+            android:layout_width="@dimen/s78"
+            android:layout_height="@dimen/s80"
+            android:contentDescription="@null"
+            android:src="@drawable/img_love_tips_new" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/s80" />
+
+
+        <ImageView
+            android:layout_width="@dimen/s78"
+            android:layout_height="@dimen/s80"
+            android:contentDescription="@null"
+            android:src="@drawable/img_love_tips_new" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
