@@ -30,24 +30,24 @@
 
         <TextView
             android:id="@+id/view_display1"
-            android:layout_width="@dimen/x120"
-            android:layout_height="@dimen/x120"
+            android:layout_width="@dimen/s120"
+            android:layout_height="@dimen/s120"
             android:background="#f00"
             android:gravity="center"
             android:text="@string/test_text" />
 
         <TextView
             android:id="@+id/view_display2"
-            android:layout_width="@dimen/x120"
-            android:layout_height="@dimen/x120"
+            android:layout_width="@dimen/s120"
+            android:layout_height="@dimen/s120"
             android:background="#00f"
             android:gravity="center"
             android:text="@string/test_text" />
 
         <TextView
             android:id="@+id/view_display3"
-            android:layout_width="@dimen/x120"
-            android:layout_height="@dimen/x120"
+            android:layout_width="@dimen/s120"
+            android:layout_height="@dimen/s120"
             android:background="#0ff"
             android:gravity="center"
             android:text="@string/test_text" />
@@ -56,9 +56,9 @@
 
 
     <TextView
-        android:layout_width="@dimen/x120"
-        android:layout_height="@dimen/y150"
-        android:layout_marginTop="@dimen/y150"
+        android:layout_width="@dimen/s120"
+        android:layout_height="@dimen/s150"
+        android:layout_marginTop="@dimen/s150"
         android:background="@color/colorPrimary"
         android:text="@string/test_text2"
         android:gravity="center"

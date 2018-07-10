@@ -8,24 +8,24 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y196"
+        android:layout_height="@dimen/s196"
         android:layout_marginTop="100dp"
-        android:paddingLeft="@dimen/x10"
-        android:paddingRight="@dimen/x10">
+        android:paddingLeft="@dimen/s10"
+        android:paddingRight="@dimen/s10">
 
         <ImageView
             android:id="@+id/img0"
-            android:layout_width="@dimen/x112"
-            android:layout_height="@dimen/y196"
+            android:layout_width="@dimen/s112"
+            android:layout_height="@dimen/s196"
             android:contentDescription="@null"
             android:src="@drawable/img_palm_reading" />
 
         <ImageView
             android:id="@+id/img1"
-            android:layout_width="@dimen/x218"
-            android:layout_height="@dimen/y106"
-            android:layout_marginLeft="@dimen/x12"
-            android:layout_marginStart="@dimen/x12"
+            android:layout_width="@dimen/s218"
+            android:layout_height="@dimen/s106"
+            android:layout_marginLeft="@dimen/s12"
+            android:layout_marginStart="@dimen/s12"
             android:layout_toEndOf="@id/img0"
             android:layout_toRightOf="@id/img0"
             android:contentDescription="@null"
@@ -34,23 +34,23 @@
 
         <ImageView
             android:id="@+id/img2"
-            android:layout_width="@dimen/x104"
-            android:layout_height="@dimen/y80"
+            android:layout_width="@dimen/s104"
+            android:layout_height="@dimen/s80"
             android:layout_alignLeft="@id/img1"
             android:layout_alignStart="@id/img1"
             android:layout_below="@id/img1"
-            android:layout_marginTop="@dimen/y10"
+            android:layout_marginTop="@dimen/s10"
             android:background="@drawable/ic_common_corner_red"
             android:contentDescription="@null"
             android:src="@drawable/img_love_tips" />
 
         <ImageView
             android:id="@+id/img3"
-            android:layout_width="@dimen/x104"
-            android:layout_height="@dimen/y80"
+            android:layout_width="@dimen/s104"
+            android:layout_height="@dimen/s80"
             android:layout_alignTop="@id/img2"
-            android:layout_marginLeft="@dimen/x10"
-            android:layout_marginStart="@dimen/x10"
+            android:layout_marginLeft="@dimen/s10"
+            android:layout_marginStart="@dimen/s10"
             android:layout_toEndOf="@id/img2"
             android:layout_toRightOf="@id/img2"
             android:contentDescription="@null"
