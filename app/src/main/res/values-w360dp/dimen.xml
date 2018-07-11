@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+      <string name="test_text">values-w360dp</string>
+
        <!--1080p or 1440p, 360x640dp nexus5 3.0x, with navigation bar-->
       <dimen name="s1">1.000dp</dimen>
       <dimen name="s2">2.000dp</dimen>

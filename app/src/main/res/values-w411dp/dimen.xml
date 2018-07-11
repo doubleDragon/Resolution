@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+      <string name="test_text">values-w411dp</string>
+
        <!--1440x2560px 411x731dp, Nexus 6p 3.5x, Nexus 5X 2.625x-->
       <dimen name="s1">1.142dp</dimen>
       <dimen name="s2">2.283dp</dimen>

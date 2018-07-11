@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+      <string name="test_text">values-w384dp</string>
+
        <!--768x1280px 384x640dp nexus 4 2x-->
       <dimen name="s1">1.067dp</dimen>
       <dimen name="s2">2.133dp</dimen>

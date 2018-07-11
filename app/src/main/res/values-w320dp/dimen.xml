@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+      <string name="test_text">values-w320dp</string>
+
        <!--480x854px 320x569dp 240dpi 1.5x, Android One,LGE LGLS675-->
       <dimen name="s1">0.889dp</dimen>
       <dimen name="s2">1.778dp</dimen>
